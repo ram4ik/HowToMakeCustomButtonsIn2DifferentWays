@@ -10,11 +10,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Button(action: {
-            print("button pressed")
-        }) {
-            Text("Press me")
+        VStack {
+            
+            MyCustomButton(action: {}) {
+                Text("Press me")
+            }.padding()
+            
+            Button(action: {
+                print("button pressed")
+            }) {
+                Text("Press me")
+            }
         }
+        
     }
 }
 

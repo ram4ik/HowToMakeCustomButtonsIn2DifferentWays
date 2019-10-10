@@ -13,6 +13,7 @@
 		95CCD091234F2F4B00B1DC24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CCD090234F2F4B00B1DC24 /* Assets.xcassets */; };
 		95CCD094234F2F4B00B1DC24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CCD093234F2F4B00B1DC24 /* Preview Assets.xcassets */; };
 		95CCD097234F2F4B00B1DC24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CCD095234F2F4B00B1DC24 /* LaunchScreen.storyboard */; };
+		95CCD09F234F302000B1DC24 /* MyCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CCD09E234F302000B1DC24 /* MyCustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		95CCD093234F2F4B00B1DC24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95CCD096234F2F4B00B1DC24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95CCD098234F2F4B00B1DC24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95CCD09E234F302000B1DC24 /* MyCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				95CCD08A234F2F4900B1DC24 /* AppDelegate.swift */,
 				95CCD08C234F2F4900B1DC24 /* SceneDelegate.swift */,
 				95CCD08E234F2F4900B1DC24 /* ContentView.swift */,
+				95CCD09E234F302000B1DC24 /* MyCustomButton.swift */,
 				95CCD090234F2F4B00B1DC24 /* Assets.xcassets */,
 				95CCD095234F2F4B00B1DC24 /* LaunchScreen.storyboard */,
 				95CCD098234F2F4B00B1DC24 /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95CCD09F234F302000B1DC24 /* MyCustomButton.swift in Sources */,
 				95CCD08B234F2F4900B1DC24 /* AppDelegate.swift in Sources */,
 				95CCD08D234F2F4900B1DC24 /* SceneDelegate.swift in Sources */,
 				95CCD08F234F2F4900B1DC24 /* ContentView.swift in Sources */,
